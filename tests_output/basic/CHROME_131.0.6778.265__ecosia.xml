@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="basic.ecosia"
+    errors="1" failures="1" hostname="" id="" package="basic" skipped="0"
+    tests="1" time="27.07" timestamp="">
+  
+    <testcase name="Demo test ecosia.org" classname="basic.ecosia" time="12.63" assertions="5">
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;.layout__content&gt; contains text &#39;Nightwatch.js&#39; in 5000ms - expected &#34;contains text &#39;Nightwatch.js&#39;&#34; but got: &#34;element could not be located&#34; (10361ms)">    at DescribeInstance.&lt;anonymous&gt; (C:\Users\fabie\OneDrive\Documents\MINES ALES\Validation Logiciel\quality-env-tests\nightwatch\examples\basic\ecosia.js:12:15)</failure>
+
+    
+    <error type="error"><![CDATA[
+    NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+    at Object.throwDecodedError (C:\Users\fabie\OneDrive\Documents\MINES ALES\Validation Logiciel\quality-env-tests\node_modules\selenium-webdriver\lib\error.js:521:15)
+    at parseHttpResponse (C:\Users\fabie\OneDrive\Documents\MINES ALES\Validation Logiciel\quality-env-tests\node_modules\selenium-webdriver\lib\http.js:514:13)
+    at Executor.execute (C:\Users\fabie\OneDrive\Documents\MINES ALES\Validation Logiciel\quality-env-tests\node_modules\selenium-webdriver\lib\http.js:446:28)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Driver.execute (C:\Users\fabie\OneDrive\Documents\MINES ALES\Validation Logiciel\quality-env-tests\node_modules\selenium-webdriver\lib\webdriver.js:744:17)
+    at async Driver.findElements (C:\Users\fabie\OneDrive\Documents\MINES ALES\Validation Logiciel\quality-env-tests\node_modules\selenium-webdriver\lib\webdriver.js:1072:17)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchWindowError
+   no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.265)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

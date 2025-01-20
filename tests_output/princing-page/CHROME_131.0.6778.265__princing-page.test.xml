@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="princing-page.princing-page.test"
+    errors="0" failures="0" hostname="" id="" package="princing-page" skipped="0"
+    tests="1" time="2.036" timestamp="">
+  
+    <testcase name="Tests de la page des tarifs" classname="princing-page.princing-page.test" time="1.017" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
