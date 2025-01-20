@@ -33,5 +33,6 @@
 
 ### **4. `Résultat des tests de performances`**
 - **Résultats des tests réalisés :**
+  - Les résultats des tests se trouvent dans /benchmark/tests_results
 
 ---

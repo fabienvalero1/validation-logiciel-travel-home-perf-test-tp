@@ -1,0 +1,7 @@
+http://127.0.0.1:3000/contact POST {"firstName": "John", "lastName": "Doe", "mobilePhone": "1234567890", "email": "johndoe@example.com", "arrivedAt": "2025-01-20T00:00:00Z", "departureAt": "2025-01-20T01:00:00Z", "message": "Looking forward to meeting you!"}
+http://127.0.0.1:3000/contacts GET
+http://127.0.0.1:3000/contact/67863c2ef9b51470d6ff54ba DELETE
+http://127.0.0.1:3000/feedback POST {"name": "John Doe", "message": "Great service!"}
+http://127.0.0.1:3000/feedback GET
+http://127.0.0.1:3000/feedback/67863c2ef9b51470d6ff54ba DELETE
+http://127.0.0.1:3000/login GET name=testuser&password=testuser
